@@ -21,7 +21,11 @@
         vpc_subnet_id: subnet-e45a7a8c
         assign_public_ip: yes
         instance_tags:
+<<<<<<< HEAD
           Name: "Ramakrishna's Awesome Instance"
+=======
+          Name: "Ram's Awesome Instance"
+>>>>>>> e5943fb1019191c5dcb923007ebc3a9801e5e5a1
           location: ohio-ansible-cluster
       register: ec2
 
